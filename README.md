@@ -33,7 +33,7 @@ Beispieldateiname: `2019-04-04 Arbeitsplatz Effinger CHF270 KAT5.pdf`
 
 ## Lizenz
 
-Erstellt mit ✨ von www.jakob.services
+Erstellt mit ✨ von www.jakobservices.ch
 
 Das Milchbüechli-Supertool darf frei verwendet und weiterentwickelt werden. Dieses Werk ist - sofern nicht anders angegeben - lizenziert unter [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) (CC BY-SA 4.0).
 
@@ -50,4 +50,4 @@ Du darfst die Unterlagen also verwenden, kopieren und weiterentwickeln. Dabei mu
 
 So etwa könnte eine Quellenangabe aussehen:
 
-📌 Milchbüechli-Supertool von [Jakob Services](https://www.jakob.services), Lizenz: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+📌 Milchbüechli-Supertool von [Jakob Services](https://www.jakobservices.ch), Lizenz: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
