@@ -76,3 +76,9 @@ Du darfst die Unterlagen also verwenden, kopieren und weiterentwickeln. Dabei mu
 So etwa könnte eine Quellenangabe aussehen:
 
 📌 Milchbüechli-Supertool von [Jakob Services](https://www.jakobservices.ch), Lizenz: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+
+## Spende
+
+🍣 Wenn dir das Milchbüechli-Supertool weitergeholfen hat, darfst du mir gerne via PayPal ein Mittagessen spendieren :-). 
+
+[![Spende via PayPal](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=info@jakobservices.ch&item_name=Milchbuechli-Supertool&currency_code=CHF)
