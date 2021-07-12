@@ -1,8 +1,8 @@
 # Changelog
 
-## Version 3.0 (2020-07-11)
+## Version 3.0 (2020-07-12)
 
-- Neue Version für Google Sheets.
+- NEU: Support für Google Sheets.
 - Formatierung der Tabellen vereinfachen für Google Sheets.
 - Total von Einnahmen, Ausgaben, Aktiven, Passiven jeweils oben auf dem Tabellenblatt. So können die Tabellen einfacher verlängert werden.
 
