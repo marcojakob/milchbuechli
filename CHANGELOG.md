@@ -1,5 +1,11 @@
 # Changelog
 
+## Version 3.0 (2020-07-11)
+
+- Neue Version für Google Sheets.
+- Formatierung der Tabellen vereinfachen für Google Sheets.
+- Total von Einnahmen, Ausgaben, Aktiven, Passiven jeweils oben auf dem Tabellenblatt. So können die Tabellen einfacher verlängert werden.
+
 ## Version 2.1 (2020-02-08)
 
 - Neue Kategorie "Spenden".
