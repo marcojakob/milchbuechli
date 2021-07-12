@@ -79,6 +79,6 @@ So etwa könnte eine Quellenangabe aussehen:
 
 ## Spende
 
-🍣 Wenn dir das Milchbüechli-Supertool weitergeholfen hat, darfst du mir gerne via PayPal ein Mittagessen spendieren :-). 
+🍣 Wenn dir das Milchbüechli-Supertool weitergeholfen hat, darfst du mir gerne mit dem Donate-Knopf ein Mittagessen spendieren :-). Herzlichen Dank!
 
-[![Spende via PayPal](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=info@jakobservices.ch&item_name=Milchbuechli-Supertool&currency_code=CHF)
+[![Spende via PayPal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=info@jakobservices.ch&item_name=Milchbuechli-Supertool&currency_code=CHF)
