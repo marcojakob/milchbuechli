@@ -1,6 +1,10 @@
 # Changelog
 
-## Version 3.0 (2020-07-12)
+## Version 3.1 (2021-07-13)
+
+- Sie-Form in Beschreibungen entfernen.
+
+## Version 3.0 (2021-07-12)
 
 - NEU: Support für Google Sheets.
 - Formatierung der Tabellen vereinfachen für Google Sheets.
