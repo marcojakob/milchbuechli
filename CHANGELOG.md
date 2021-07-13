@@ -1,5 +1,9 @@
 # Changelog
 
+## Version 3.2 (2021-07-13)
+
+- Script für Ausgaben auslesen effizienter machen (Kategorien vorgängig auslesen).
+
 ## Version 3.1 (2021-07-13)
 
 - Sie-Form in Beschreibungen entfernen.

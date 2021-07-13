@@ -138,7 +138,7 @@ function ausgabenAusDateinamen() {
   const sheet = spreadsheet.getSheetByName(ausgabenSheetName);
 
   const sheetEinstellungen = spreadsheet.getSheetByName(einstellungenSheetName);
-  const kategorien = sheetEinstellungen.getRange(12, 2, 40, 1);
+  const kategorien = sheetEinstellungen.getRange(12, 2, 40, 1).getValues().flat();
 
   // Ordner finden.
   const folder = getSubfolderByName(ausgabenSheetName);
@@ -185,7 +185,7 @@ function ausgabenAusDateinamen() {
       let kategorieText = '';
       const kategorieNumber = parseInt(matches[5]);
       if (!isNaN(kategorieNumber)) {
-        kategorieText = kategorien.getCell(kategorieNumber, 1).getValue();
+        kategorieText = kategorien[kategorieNumber - 1];
       }
       const valueKategorie = SpreadsheetApp.newRichTextValue()
         .setText(kategorieText)
