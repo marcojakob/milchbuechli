@@ -51,7 +51,7 @@ Das Milchbüechli-Supertool kann auch in Google Sheets verwendet werden. So wird
 4. Nach Google Sheets umwandeln: Im Menu *Datei* den Punkt *Als Google-Tabelle speichern* auswählen.
 5. Nun gibt es zwei Dateien. Die Excel-Datei (Endung .xlsm) kann gelöscht werden.
 6. In der Google Sheets Datei Menu *Tools*, *Skripteditor* öffnen.
-7. Im Skripteditor den ganzen Inhalt der Datei `GoogleSheetsScript.js` hineinkopieren.
+7. Im Skripteditor den ganzen Inhalt der Datei [`GoogleSheetsScript.gs`](GoogleSheetsScript.gs) hineinkopieren.
 8. Speichern, Skripteditor schliessen und Google Sheet neu laden.
 
 Nun sollte in Google Sheets ein neues Menu `🥛 Milchbüechli` erscheinen. Unter diesem Menu können die Einnahmen und Ausgaben eingelesen werden. Allenfalls muss bei der ersten Ausführung noch die Berechtigung erteilt werden. 
