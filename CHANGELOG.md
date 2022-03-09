@@ -1,5 +1,14 @@
 # Changelog
 
+## Version 3.3 (2022-03-09)
+
+- Tabellenlinien entfernen, da nicht vorausgesehen werden kann, wie viele Zeilen es braucht.
+- In Ausgaben die Spalte Betrag an den Schluss stellen für bessere Lesbarkeit.
+- Erstes Sheet umbenennen in 'Kategorien'.
+- Erstes Sheet (Kategorien) so gestalten, dass es ausgedruckt werden kann (Toolname nur noch klein am Ende).
+- Kleinere Anpassungen in den Kategoriebeschreibungen.
+- Hinweis in Readme wegen Windows Virenschutz.
+
 ## Version 3.2 (2021-07-13)
 
 - Script für Ausgaben auslesen effizienter machen (Kategorien vorgängig auslesen).

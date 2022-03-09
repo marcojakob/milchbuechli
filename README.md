@@ -41,6 +41,8 @@ Die Excel-Datei hat zwei hinterlegte Makro-Funktionen. Eine ist für die Einnahm
 
 Damit dies funktioniert, braucht es einen Ordner für die Einnamen und einen für die Ausgaben. Dort drin müssen die Belege und Rechnungen mit ganz bestimmten Dateinamen abgespeichert sein (siehe Beispielordner oder Einnahmen/Ausgaben unten).
 
+Hinweis zum Virenschutz: Falls sich der Windows Virenschutz meldet, so muss man den Ordner, in dem sich die Excel-Datei befindet, als [vertrauenswürdigen Speicherort](https://support.microsoft.com/de-de/office/hinzuf%C3%BCgen-entfernen-oder-%C3%A4ndern-eines-vertrauensw%C3%BCrdigen-speicherorts-7ee1cdc2-483e-4cbb-bcb3-4e7c67147fb4) deklarieren.
+
 ## Anleitung (Google Sheets)
 
 Das Milchbüechli-Supertool kann auch in Google Sheets verwendet werden. So wird das Google Sheet eingerichtet:
@@ -50,11 +52,13 @@ Das Milchbüechli-Supertool kann auch in Google Sheets verwendet werden. So wird
 3. Die Excel-Datei mit Google Sheets öffnen. Zuerst wird sie im Excel-Format geöffnet.
 4. Nach Google Sheets umwandeln: Im Menu *Datei* den Punkt *Als Google-Tabelle speichern* auswählen.
 5. Nun gibt es zwei Dateien. Die Excel-Datei (Endung .xlsm) kann gelöscht werden.
-6. In der Google Sheets Datei Menu *Tools*, *Skripteditor* öffnen.
+6. In der Google Sheets Datei Menu *Erweiterungen*, *Apps Script* öffnen.
 7. Im Skripteditor den ganzen Inhalt der Datei [`GoogleSheetsScript.gs`](GoogleSheetsScript.gs) hineinkopieren.
 8. Speichern, Skripteditor schliessen und Google Sheet neu laden.
 
-Nun sollte in Google Sheets ein neues Menu `🥛 Milchbüechli` erscheinen. Unter diesem Menu können die Einnahmen und Ausgaben eingelesen werden. Allenfalls muss bei der ersten Ausführung noch die Berechtigung erteilt werden. 
+Nun sollte in Google Sheets ein neues Menu `🥛 Milchbüechli` erscheinen (nach einer kurzen Ladezeit). Unter diesem Menu können die Einnahmen und Ausgaben eingelesen werden. Allenfalls muss bei der ersten Ausführung noch die Berechtigung erteilt werden. 
+
+**Hinweis Region:** Eventuell muss unter *Datei*, *Einstellungen* das korrekte Land ausgewählt werden, damit Datum und Währungen korrekt dargestellt werden.
 
 ## Lizenz
 

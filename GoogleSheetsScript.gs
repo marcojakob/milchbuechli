@@ -7,7 +7,7 @@ const timeZone = 'Europe/Zurich';
 const locale = 'de_CH';
 const cellDateFormat = 'dd.MM.yyyy';
 
-const einstellungenSheetName = 'Einstellungen';
+const kategorienSheetName = 'Kategorien';
 
 const einnahmenSheetName = 'Einnahmen';
 const einnahmenTableRowStart = 9;
@@ -137,8 +137,8 @@ function ausgabenAusDateinamen() {
   const spreadsheet = SpreadsheetApp.getActiveSpreadsheet();
   const sheet = spreadsheet.getSheetByName(ausgabenSheetName);
 
-  const sheetEinstellungen = spreadsheet.getSheetByName(einstellungenSheetName);
-  const kategorien = sheetEinstellungen.getRange(12, 2, 40, 1).getValues().flat();
+  const sheetKategorien = spreadsheet.getSheetByName(kategorienSheetName);
+  const kategorien = sheetKategorien.getRange(8, 2, 24, 1).getValues().flat();
 
   // Ordner finden.
   const folder = getSubfolderByName(ausgabenSheetName);
@@ -192,7 +192,7 @@ function ausgabenAusDateinamen() {
         .setTextStyle(linkTextStyle)
         .build();
 
-      currentRange.setRichTextValues([[valueDatum, valueBeschreibung, valueBetrag, valueKategorie]]);
+      currentRange.setRichTextValues([[valueDatum, valueBeschreibung, valueKategorie, valueBetrag]]);
     } else {
       // Filname is not correct.
       const fehlermeldung = SpreadsheetApp.newRichTextValue()
