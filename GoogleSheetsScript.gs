@@ -8,6 +8,10 @@ const locale = 'de_CH';
 const cellDateFormat = 'dd.MM.yyyy';
 
 const kategorienSheetName = 'Kategorien';
+const kategorienTableRowStart = 7;
+const kategorienTableNumRows = 17;
+const kategorienTableColumnStart = 2;
+const kategorienTableNumColumns = 1;
 
 const einnahmenSheetName = 'Einnahmen';
 const einnahmenTableRowStart = 9;
@@ -58,7 +62,7 @@ function ausgabenTabelleLeeren() {
 /**
  * Liest alle Angaben zu EINNAHMEN aus den Dateinamen im entsprechenden Ordner.
  * 
- * Dateinamen Beispiel: 2021-02-01 KUNDE A - Workshop CHF500 BEZ2021-02-20.pdf
+ * Dateinamen Beispiel: 2022-02-01 KUNDE A - Workshop CHF500 BEZ2022-02-20.pdf
  * Der Teil mit BEZ ist optional.
  */
 function einnahmenAusDateinamen() {
@@ -129,7 +133,7 @@ function einnahmenAusDateinamen() {
 /**
  * Liest alle Angaben zu AUSGABEN aus den Dateinamen im entsprechenden Ordner.
  * 
- * Dateinamen Beispiel: 2021-02-01 Website Hosting CHF500 KAT9.pdf
+ * Dateinamen Beispiel: 2022-02-01 Website Hosting CHF500 KAT9.pdf
  */
 function ausgabenAusDateinamen() {
   const filenamePattern = /^(\S+)\s(.+)\sCHF(\S+)(\sKAT(\S+))?\.\S+$/;
@@ -138,7 +142,8 @@ function ausgabenAusDateinamen() {
   const sheet = spreadsheet.getSheetByName(ausgabenSheetName);
 
   const sheetKategorien = spreadsheet.getSheetByName(kategorienSheetName);
-  const kategorien = sheetKategorien.getRange(8, 2, 24, 1).getValues().flat();
+  const kategorien = sheetKategorien.getRange(kategorienTableRowStart, kategorienTableColumnStart,
+                          kategorienTableNumRows, kategorienTableNumColumns).getValues().flat();
 
   // Ordner finden.
   const folder = getSubfolderByName(ausgabenSheetName);

@@ -16,19 +16,19 @@ Das Milchbüechli-Supertool hilft, eine klare Struktur in die Ablage von Belegen
 
 Im Unterordner `Einnahmen` werden alle Belege (Rechnungen) für Einnahmen abgelegt.
 
-Beispieldateiname: `2021-02-23 KUNDE A - Workshop CHF1100.pdf`
+Beispieldateiname: `2022-02-23 KUNDE A - Workshop CHF1100.pdf`
 
 1. Das Rechnungsdatum (in umgekehrter Reihenfolge Jahr-Monat-Tag wegen der Sortierung).
 2. Ein freier Text zur Beschreibung.
 3. Der Betrag.
 
-Sobald wir den Betrag erhalten haben, können wir optional das Datum der Überweisung notieren. Dann sieht der ganze Dateiname so aus: `2021-02-23 KUNDE A - Workshop CHF1100 BEZ2021-03-05.pdf`
+Sobald wir den Betrag erhalten haben, können wir optional das Datum der Überweisung notieren. Dann sieht der ganze Dateiname so aus: `2022-02-23 KUNDE A - Workshop CHF1100 BEZ2022-03-05.pdf`
 
 ### Ausgaben
 
 Im Unterordner `Ausgaben` werden alle Belege für Ausgaben abgelegt.
 
-Beispieldateiname: `2021-04-04 Arbeitsplatz Effinger CHF270 KAT5.pdf`
+Beispieldateiname: `2022-04-04 Arbeitsplatz Effinger CHF270 KAT5.pdf`
 
 1. Das Rechnungsdatum (in umgekehrte Reihenfolge Jahr-Monat-Tag wegen der Sortierung).
 2. Ein freier Text zur Beschreibung.
@@ -59,6 +59,10 @@ Das Milchbüechli-Supertool kann auch in Google Sheets verwendet werden. So wird
 Nun sollte in Google Sheets ein neues Menu `🥛 Milchbüechli` erscheinen (nach einer kurzen Ladezeit). Unter diesem Menu können die Einnahmen und Ausgaben eingelesen werden. Allenfalls muss bei der ersten Ausführung noch die Berechtigung erteilt werden. 
 
 **Hinweis Region:** Eventuell muss unter *Datei*, *Einstellungen* das korrekte Land ausgewählt werden, damit Datum und Währungen korrekt dargestellt werden.
+
+## Jahresabschluss für die Steuererklärung
+
+Im Tabellenblatt `Jahresabschluss` werden alle Ausgaben nach Kategorien aufgelistet. Diese Übersicht kann für die Steuererklärung verwendet und dort als Jahresabschluss beigelegt werden. Auf Nachfrage der Steuerbehörde kann man mit den detaillierten Ansichten (`Einnahmen`, `Ausgaben`, `Aktiven`, `Passiven`) und den zugeordneten Belegen weitere Auskunft erteilen.
 
 ## Lizenz
 

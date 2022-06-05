@@ -1,10 +1,16 @@
 # Changelog
 
+## Version 4.0 (2022-06-05)
+
+- In "Jahresabschluss" die Summe einzelner Ausgabekategorien aufführen.
+- Das Blatt "Jahresabschluss" kann nun alleine für die Steuererklärung verwendet werden.
+- Jahr überall auf 2022 stellen.
+
 ## Version 3.3 (2022-03-09)
 
 - Tabellenlinien entfernen, da nicht vorausgesehen werden kann, wie viele Zeilen es braucht.
 - In Ausgaben die Spalte Betrag an den Schluss stellen für bessere Lesbarkeit.
-- Erstes Sheet umbenennen in 'Kategorien'.
+- Erstes Sheet umbenennen in "Kategorien".
 - Erstes Sheet (Kategorien) so gestalten, dass es ausgedruckt werden kann (Toolname nur noch klein am Ende).
 - Kleinere Anpassungen in den Kategoriebeschreibungen.
 - Hinweis in Readme wegen Windows Virenschutz.
