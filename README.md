@@ -37,6 +37,8 @@ Beispieldateiname: `2022-04-04 Arbeitsplatz Effinger CHF270 KAT5.pdf`
 
 ## Anleitung (Excel)
 
+&rarr; [Dateien als ZIP herunterladen](https://github.com/marcojakob/milchbuechli/archive/refs/heads/master.zip)
+
 Die Excel-Datei hat zwei hinterlegte Makro-Funktionen. Eine ist für die Einnahmen und eine für die Ausgaben. Im Tabellenblatt Einnahmen bzw. Ausgaben hat es entsprechende Knöpfe, um die Daten aus den Dateinamen auszulesen.
 
 Damit dies funktioniert, braucht es einen Ordner für die Einnamen und einen für die Ausgaben. Dort drin müssen die Belege und Rechnungen mit ganz bestimmten Dateinamen abgespeichert sein (siehe Beispielordner oder Einnahmen/Ausgaben unten).
@@ -44,6 +46,8 @@ Damit dies funktioniert, braucht es einen Ordner für die Einnamen und einen fü
 Hinweis zum Virenschutz: Falls sich der Windows Virenschutz meldet, so muss man den Ordner, in dem sich die Excel-Datei befindet, als [vertrauenswürdigen Speicherort](https://support.microsoft.com/de-de/office/hinzuf%C3%BCgen-entfernen-oder-%C3%A4ndern-eines-vertrauensw%C3%BCrdigen-speicherorts-7ee1cdc2-483e-4cbb-bcb3-4e7c67147fb4) deklarieren.
 
 ## Anleitung (Google Sheets)
+
+&rarr; [Dateien als ZIP herunterladen](https://github.com/marcojakob/milchbuechli/archive/refs/heads/master.zip)
 
 Das Milchbüechli-Supertool kann auch in Google Sheets verwendet werden. So wird das Google Sheet eingerichtet:
 
